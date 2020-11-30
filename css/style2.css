@@ -8,9 +8,9 @@ header > div {margin-top: 50px;}
 header > div > ul {padding-top: 250px;padding-left: 100px; position: fixed;}
 header > div >ul > li { list-style: none; font-size: 20px; font-weight: 100; line-height: 30px;}
 header > div >li {list-style: none; font-size: 20px; font-weight: 100; padding-left: 100px; margin-top: 10px; position: fixed;}
-header > div >li > a {color: #000;  text-decoration: none;}
-header > div >ul > li > a{color: #000;  text-decoration: none;}
-header > div >li.sns > a {list-style: none; font-size: 20px; font-weight: 100; margin-top: 540px; position: fixed;}
+header > div >li > a {z-index: 1;color: #000;  text-decoration: none;}
+header > div >ul > li > a{z-index: 1;color: #000;  text-decoration: none;}
+header > div >li.sns > a {z-index: 1;list-style: none; font-size: 20px; font-weight: 100; margin-top: 540px; position: fixed;}
 header > div >li.num {list-style: none; font-size: 20px; font-weight: 100;padding-left: 1350px; margin-top: 540px; position: fixed;}
 
 section > div {background-color: #e9e9e9;}

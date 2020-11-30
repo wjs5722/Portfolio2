@@ -9,45 +9,46 @@ svg {position: absolute;width: 100%;height: 100%;top: 50%;left: 50%;-webkit-tran
 #circle {z-index: 1000; transition: r 1s cubic-bezier(0.2, 0.9, 0.3, 1.3);fill: #f9f9f9;fill: #fff;}
 
 /* index.html */
-header > div {margin-top: 50px;}
-header > div > ul {display: block;  padding-top: 250px;padding-left: 100px; position: fixed;}
-header > div >ul > li {display: block;list-style: none; font-size: 20px; font-weight: 100; line-height: 30px;}
-header > div >li {list-style: none; font-size: 20px; font-weight: 100; padding-left: 100px; margin-top: 10px; position: fixed;}
-header > div >li > a {color: #000;  text-decoration: none;}
-header > div >ul > li > a{color: #000;  text-decoration: none;}
-header > div >li.sns > a {z-index: 1; list-style: none; font-size: 20px; font-weight: 100; margin-top: 540px; position: fixed;}
-header > div >li.top {list-style: none; font-size: 20px; font-weight: 100;padding-left: 1400px; margin-top: 555px; position: fixed;}
 
-section > div#one > article.typo{ font-size: 140px; font-weight: bold;padding-left: 460px; line-height: 140px;}
-section > div#one > article.typo > p {position: absolute; margin-top: -10px; margin-right: 0px;}
+header > article.nav > div > ul {z-index: 1; position: fixed; list-style: none;}
+header > article.nav > div > ul > li {margin: auto; margin-left: 30px; margin-top: -40px;}
+header > article.nav > div > ul > li > a{  display: block; line-height: 120px; text-decoration: none;font-size: 20px; font-weight: 100; color: #000;}
+header > article.nav > div > ul > li > a:hover{color: #8195a0;}
 
-#two{width: 100%; margin: 0 auto; margin-top: 80px;}
-#work{background-color: #e9e9e9; height: 2100px; }
+section > article.main{width: 100%; height: 100%; position: fixed; margin: auto; margin-top: -140px; }
+section > article.main > div.a{font-size: 120px;  text-align: left; margin-left: 400px; margin-bottom: -160px; }
+section > article.main > div.b{font-size: 120px;  text-align: left; margin-left: 400px; margin-bottom: -130px;}
+section > article.main > div.c > a{text-decoration: none; color: #000; transition: letter-spacing 0.5s;}
+section > article.main > div.c > a:hover{color: #8195a0; letter-spacing: 15px;}
+section > article.main > div.c{font-size: 120px;  text-align: left; margin-left: 400px; margin-bottom: -150px;}
 
-section > div#two > div#work > div.a > a._a >img {margin-left: 670px; margin-top: 850px; z-index: 1;position: absolute;}
-section > div#two > div#work > div.a > a._a >img.up-on-scroll{transition: transform 0.7s, opacity 1s;}
-section > div#two > div#work > div.a > h1 {color: black; font-size: 20px; font-weight: 900; margin-left: 350px; z-index: 1000; position: absolute;padding-top: 1100px;}
-section > div#two > div#work > div.a > p {color: black; font-size: 15px; font-weight: 300; margin-left: 370px; z-index: 1000; position: absolute;padding-top: 1130px; }
 
-section > div#two > div#work > div.b > a._b > img {margin-left: 300px; margin-top: 1480px; z-index: 1;position: absolute;}
-section > div#two > div#work > div.b > a._b > img.up-on-scroll{transition: transform 0.7s, opacity 1s;}
-section > div#two > div#work > div.b > h1 {color: black; font-size: 20px; font-weight: 900; margin-left: 1030px; z-index: 1000; position: absolute;padding-top: 1730px;}
-section > div#two > div#work > div.b >  p {color: black; font-size: 15px; font-weight: 100;margin-left: 1030px; z-index: 1000; position: absolute;padding-top: 1760px; }
 
-section > div#two > div#work > div.c > a._c > img{margin-left: 640px; margin-top: 2100px; margin-bottom: 140px; z-index: 1;position: absolute;}
-section > div#two > div#work > div.c > a._c > img.up-on-scroll{transition: transform 0.7s, opacity 1s;}
-section > div#two > div#work > div.c > h1 {color: black; font-size: 20px; font-weight: 900; margin-left: 450px; z-index: 1000; position: absolute;padding-top: 2470px;}
-section > div#two > div#work > div.c > p { color: black;font-size: 15px; font-weight: 100;margin-left: 320px; z-index: 1000; position: absolute;padding-top: 2495px; }
+
 
 /* contact.html */
-header > ul.contact_ul {list-style: none; font-size: 20px; font-weight: 100; padding-left: 100px; margin-top: 310px; position: fixed;}
+header > ul.contact_ul { margin: auto; z-index: 1; list-style: none; font-size: 20px; font-weight: 100; margin-left: 30px;  margin-top: 300px; position: fixed;}
 header > ul.contact_ul > li > a {color: #000;text-decoration: none;}
+header > ul.contact_ul > li > a:hover{color: #8195a0; }
 
-section > article.typo > div#contact {z-index: 1; position:fixed; margin-top: auto; width: 100%; margin-left: auto;  text-align: left; padding-top: 150px; padding-left: 350px;}
-section > article.typo > div#contact > h1{font-size: 100px; }
-section > article.typo > div#contact > h3{font-size: 25px; font-weight: 100; }
+section > article.typo > div#contact > h1{transition: all 0.5s; width: 100%; text-align: center; margin: auto; margin-top: 260px; font-weight: 900; font-size: 110px;position: absolute;}
+section > article.typo > div#contact > h1:hover{transform: scale(1.1);}
 
-section > article.typo2 > div#contact2 {z-index: 1; position:fixed;  margin-left: auto; margin-top: auto; padding-top: 430px; text-align: left; padding-left: 350px;font-weight: 100; font-size: 35px; line-height: 50px;}
+section > article.typo > div.a > h1{transition: all 0.5s;font-size: 50px; font-weight: 100;width: 100%; text-align: center;position: absolute; z-index: 1; margin: auto; margin-top: 30px;}
+section > article.typo > div.a > h1:hover{transform: scale(1.1);}
+
+section > article.typo > div.b > h1{transition: all 0.5s;font-size: 50px; font-weight: 100;width: 100%; text-align: center;position: absolute; z-index: 1; margin: auto; margin-top: 140px;}
+section > article.typo > div.b > h1:hover{transform: scale(1.1);}
+
+section > article.typo > div.c > h1{transition: all 0.5s;font-size: 50px; font-weight: 100;width: 100%; text-align: center;position: absolute; z-index: 1; margin: auto; margin-top: 440px;}
+section > article.typo > div.c > h1:hover{transform: scale(1.1);}
+
+section > article.typo > div.d > h1{transition: all 0.5s;font-size: 50px; font-weight: 100;width: 100%; text-align: center;position: absolute; z-index: 1; margin: auto; margin-top: 560px;}
+section > article.typo > div.d > h1:hover{transform: scale(1.1);}
+
+
+
+
 
 
 /*https://codepen.io/matthewhirsch/pen/qOxmoz*/
